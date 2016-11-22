@@ -10,19 +10,31 @@ body{
 }
 h2.titulo{
 	text-align: center;
+	color: #D9C10A;
 }
+
 .sub {
-	color:  red;
+	color:  #D9C10A;
 }
 .cuerpo {
 	font-weight: bold;
 }
 .sangria{
-	color: red;
 	margin-left: 30px;
+	color: red;
+	
 }
-
-
+strong.color{
+	color: #D9C10A;
+}
+.sangri{
+	color: red;
+	
+}
+.sang{
+	text-indent: 30px;
+	
+}
 
 /*
 .articulo{
