@@ -10,10 +10,11 @@ body{
 }
 h2.titulo{
 	text-align: center;
+	color: #D9C10A;
 }
 
 .sub {
-	color:  red;
+	color:  #D9C10A;
 }
 .cuerpo {
 	font-weight: bold;
@@ -22,6 +23,9 @@ h2.titulo{
 	margin-left: 30px;
 	color: red;
 	
+}
+strong.color{
+	color: #D9C10A;
 }
 .sangri{
 	color: red;
@@ -42,4 +46,5 @@ h2.titulo{
 	color: red;
 
 };*/
+
 
