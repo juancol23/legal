@@ -13,41 +13,26 @@ body{
 }
 h2.titulo{
 	text-align: center;
-	color: #D9C10A;
+	color: #4C68AF;
 }
-
+h2.titulop{
+	text-align: center;
+	
+}
 .sub {
-	color:  #D9C10A;
+	color:  #4C68AF;
+}
+.sub-penal {
+	color:  #4C68AF;
 }
 .cuerpo {
 	font-weight: bold;
 }
-.sangria{
-	margin-left: 30px;
-	color: red;
-	
-}
 strong.color{
-	color: #D9C10A;
+	color: #4C68AF;
 }
-.sangri{
-	color: red;
-	
-}
+
 .sang{
 	text-indent: 30px;
 	
 }
-
-/*
-.articulo{
-
-}
-.articulo:before{
-	content: "Articulo1 .-";
-	font-weight: bold;
-	color: red;
-
-};*/
-
-
