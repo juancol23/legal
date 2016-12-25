@@ -1,0 +1,32 @@
+body{
+	/*padding: 10%;*/
+	      padding: 1% 1%;
+	          text-align: justify !important;
+
+}
+.corte{
+	color: green
+}
+
+h2.titulo{
+	text-align: center;
+	color: #FA9E2D;
+}
+h2.titulop{
+	text-align: center;
+	
+}
+.sub {
+	color:  #FA9E2D;
+}
+.cuerpo {
+	font-weight: bold;
+}
+strong.color{
+	color: #FA9E2D;
+}
+
+.sang{
+	text-indent: 30px;
+	
+}
