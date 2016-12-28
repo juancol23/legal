@@ -36,7 +36,7 @@ app.factory("libros", function(){
 		{
 			id: 3,
 			titulo: "003108-2008",
-			especialidad:"Penal",
+			especialidad:"Civil",
 			pretensionDelito: "Obligación de sexo",
 			palabrasClaves: "sexo sexo",
 			// img: "manuscritoAvicena.jpg"
@@ -56,7 +56,7 @@ app.factory("libros", function(){
 		{
 			id: 5,
 			titulo: "003108-2008",
-			especialidad:"Penal",
+			especialidad:"Civil",
 			pretensionDelito: "Obligación de dar",
 			palabrasClaves: "Infracción normativa",
 			// img: "manuscritoAvicena.jpg"
@@ -86,7 +86,7 @@ app.factory("libros", function(){
 		{
 			id: 8,
 			titulo: "003108-2008",
-			especialidad:"Penal",
+			especialidad:"Civil",
 			pretensionDelito: "Obligación de dar",
 			palabrasClaves: "Infracción normativa",
 			// img: "manuscritoAvicena.jpg"
@@ -102,7 +102,18 @@ app.factory("libros", function(){
 			// img: "manuscritoAvicena.jpg"
 			url:"https://github.com/juanvaldemar/legal/raw/gh-pages/Jurisprudencia/Civil/ABANDONO%20DE%20MENOR/INCUMPLIMIENTO%20DE%20LOS%20REQUISITOS%20DE%20PROCEDENCIA/Resolucion%20000581-2012-1396330621387.pdf",
 		 
+		},
+		{
+			id: 10,
+			titulo: "003108-2008",
+			especialidad:"Administrativo Contencioso",
+			pretensionDelito: "Obligación de dar",
+			palabrasClaves: "Infracción normativa",
+			// img: "manuscritoAvicena.jpg"
+			url:"",
+		 
 		}
+
 		]
 	}
 })
