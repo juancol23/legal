@@ -112,7 +112,82 @@ app.factory("libros", function(){
 			// img: "manuscritoAvicena.jpg"
 			url:"",
 		 
+		},
+		{
+			id: 11,
+			titulo: "003108-2008",
+			especialidad:"Acuerdo Plenarios en Materia Laboral",
+			pretensionDelito: "Obligación de dar",
+			palabrasClaves: "Infracción normativa",
+			// img: "manuscritoAvicena.jpg"
+			url:""
+		},
+		{
+			id: 12,
+			titulo: "003108-2008",
+			especialidad:"Acuerdo Plenarios en Materia Legal",
+			pretensionDelito: "Obligación de dar",
+			palabrasClaves: "Infracción normativa",
+			// img: "manuscritoAvicena.jpg"
+			url:""
+		},
+		{
+			id: 13,
+			titulo: "003108-2008",
+			especialidad:"Concencioso Administrativo",
+			pretensionDelito: "Obligación de dar",
+			palabrasClaves: "Infracción normativa",
+			// img: "manuscritoAvicena.jpg"
+			url:""
+		},
+		{
+			id: 14,
+			titulo: "003108-2008",
+			especialidad:"Constitucional",
+			pretensionDelito: "Obligación de dar",
+			palabrasClaves: "Infracción normativa",
+			// img: "manuscritoAvicena.jpg"
+			url:""
 		}
+		,
+		{
+			id: 15,
+			titulo: "003108-2008",
+			especialidad:"Laboral",
+			pretensionDelito: "Obligación de dar",
+			palabrasClaves: "Infracción normativa",
+			// img: "manuscritoAvicena.jpg"
+			url:""
+		},
+		{
+			id: 16,
+			titulo: "003108-2008",
+			especialidad:"Plenos Casatorios",
+			pretensionDelito: "Obligación de dar",
+			palabrasClaves: "Infracción normativa",
+			// img: "manuscritoAvicena.jpg"
+			url:""
+		},
+		{
+			id: 17,
+			titulo: "003108-2008",
+			especialidad:"Precedentes Vinculantes Contencioso Administrativo",
+			pretensionDelito: "Obligación de dar",
+			palabrasClaves: "Infracción normativa",
+			// img: "manuscritoAvicena.jpg"
+			url:""
+		},
+		{
+			id: 18,
+			titulo: "003108-2008",
+			especialidad:"Previsional",
+			pretensionDelito: "Obligación de dar",
+			palabrasClaves: "Infracción normativa",
+			// img: "manuscritoAvicena.jpg"
+			url:""
+		}
+
+
 
 		]
 	}
