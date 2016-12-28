@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="app">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+ 
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/estilos.css">
+    <!-- <link rel="stylesheet"  href="css/foundation.min.css"  />    -->
+
+	<link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet">
+	<script
+  src="https://code.jquery.com/jquery-2.2.4.min.js"
+  integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+  crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="css/css.css">
+ 		 <script type="text/javascript" src="js/angular.js"></script>
+        <script type="text/javascript" src="js/app.js"></script>
+        <script type="text/javascript" src="js/controller.js"></script>
+</head>
+<body>
+<div class="fondo">
+	 
+	<div class="fondo-black 1">
+
+		<div class="formulario">
+			<h3 class="white">Especialidad</h3>
+			<select name="seleccion" ng-model="categoria">
+			  
+
+			    <option value="" class="option-color">Seleccione (p. ej.    Penal)</option> 
+			    <option value="Administrativo" class="darkgrey">Administrativo Contencioso.</option>
+
+	            <option class="seleccion" value="AcuerdosPML">Acuerdos Plenarios en Materia Laboral</option>
+	            <option value="AcuerdosPMP">Acuerdos Plenarios en Materia Penal</option>
+	           
+	            <option value="ContenciosoA">Contencioso administrativo</option>
+	            <option value="Civil">Civil.</option>
+			    <option value="Constitucional">Constitucional.</option>
+			    <option value="Laboral">Laboral</option>
+			    <option value="Penal">Penal.</option>
+	            <option value="PlenosC">Plenos Casatorios</option>
+	            <option value="PrecedentesVCA">Precedentes Vinculantes Contencioso administrativo</option>
+	            <option value="Previsional">Previsional</option>
+			</select>
+
+				<h3 class="white">Pretensión/Delito:</h3>
+				<input ng-model="buscador" type="text" id="Text1" placeholder="Ingrese el texto(p.ej.: homicidio)">
+
+				<h3 class="white">Palabras Clave:</h3>
+				<input ng-model="palabra" type="text" id="Pala" placeholder="Ingrese el texto(p.ej.: acuerdo plenario)">
+				<br>
+				<br>
+				<br> 
+
+			<button class="boton-jurisprudencia " id="boton">Buscar&nbsp&nbsp <img src="imgs/maso.png" class="maso" width="30px" alt="" ></button> 
+		</div>
+ 
+	</div>
+
+
+	<div class="fondo-black2  dn  white mt">
+		<div class="row" ng-controller="libreriaController">
+		        <div class="container">
+		   
+		                <div  class="row  " ng-repeat="articulo in articulos|filter:buscador|filter:palabra|filter:categoria">  
+			                <div class="small-12">
+		                        <br>
+		                       
+		                       
+ 		                    <h6 class="subheader columns">&nbsp;Resolución n° {{ articulo.titulo }}</h6> 
+
+			                   <div class="small-9  columns texto di">
+		                            <p>Especialidad &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;&nbsp;&nbsp;
+		                            {{ articulo.especialidad }}<br/>
+		                            </p>
+		                            <p>Pretensión/Delito&nbsp;:&nbsp;&nbsp;&nbsp;
+		                            {{ articulo.pretensionDelito }}<br/>
+		                            </p>
+		                            <p>Palabras Claves&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;&nbsp;&nbsp;
+		                            {{ articulo.palabrasClaves }}<br/><br/>
+		                            <!-- {{ articulo.url }}<br/>  -->
+		                            </p>
+		                         
+		    	                </div>   
+		                        <div class="small-3 columns  di "> 
+		                            <a class="" href="{{articulo.url}}">
+		                               <img src="imgs/down.png" alt="">
+		                            </a>
+		                        </div>
+		                      
+
+		                  </div> 
+		                                 
+		                </div>
+		             </div>
+		</div>
+	</div>
+</div>
+
+ <!-- <script type="text/javascript">
+		$(document).ready(function(){
+			$("select[name=seleccion]").change(function(){
+	           
+	            $('input[name=especialidad]').val($(this).val());
+		    });   
+	 });
+		</script>
+		<script type="text/javascript">
+			function fAgrega(){
+				document.getElementById("Text2").value = document.getElementById("Text1").value; 
+
+			}  
+			 
+
+		</script>
+		<script type="text/javascript">
+			$(document).ready(function () {
+			    $("#Pala").keyup(function () {
+			        var value = $(this).val();
+			        $("#Palab").val(value);
+			    });
+			});
+		</script>
+		 -->
+		 	<!--  <div class="large-12 columns">
+				        	 <label>Filtra tu especialidad: </label>
+								<input type="text2" name="especialidad"  ng-model="categoria">		         
+				        </div>
+				        <div class="large-12 columns">
+				        	 <label>Filtra tu delito: </label>
+				        	 
+							<input type="text" id="Text2" ng-model="buscador">
+
+				        </div>
+				        <div class="large-12 columns">
+				        	 <label>Filtra tu palabra: </label>
+				        	 <input type="text" id="Palab" ng-model="palabra" />
+	 </div> -->
+
+<script type="text/javascript">
+	$( "#boton" ).click(function() {
+	  $(".fondo-black").toggleClass( "dn" );
+	  $(".fondo-black2").toggleClass( "dn" );
+	  $(".fondo").removeClass( "fondo" );
+
+
+	});
+</script>
+<!--  
+ <script language="JavaScript">
+  window.onbeforeunload = confirmExit;
+  function confirmExit()
+  {
+    return "Ha intentado salir de esta pagina. Si ha realizado algun cambio en los campos sin hacer clic en el boton Guardar, los cambios se perderan. Seguro que desea salir de esta pagina? ";
+  }
+</script> -->
+</body>
+</html>

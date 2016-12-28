@@ -1,0 +1,161 @@
+    
+body{
+   /* background-image: url("../imgs/juris.png");
+     background-repeat: no-repeat;
+    background-size: cover;
+     background-attachment: fixed;
+    background-position: 50% 50%;*/
+    margin:0;
+        /*overflow: hidden!important;*/
+        font-family: 'Roboto';
+}
+
+
+.fondo{
+    background-image: url("../imgs/juris.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+     position: absolute;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+}
+ 
+.fondo-black{
+    background: rgba(0, 0, 0, 0.85);
+    position: absolute;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+}
+.fondo-black2{
+    background: rgba(0, 0, 0, 0.85); 
+    text-align: center;
+    width: 100%;
+}
+.formulario{
+   
+    padding-top: 2em;
+}
+
+select{
+    width: 95%;
+}
+.boton-jurisprudencia{
+	color: white;   
+    background: #2f2a2c;
+    border: 2px solid rgb(39, 36, 38);
+    border-top-style: none;
+    font-size: 1.2em;
+    border-radius: .5em;
+    padding: 0.7em 3em;
+    box-shadow: 0px 1px 0px 1px black;
+
+}
+      
+/* .boton-jurisprudencia::after {
+  content: "";
+  background-image: url("../imgs/maso.png");
+
+}*/
+.boton-jurisprudencia{
+    position: relative;
+}
+.maso{
+    position: absolute;
+       left: 72%;
+    top: 21%;
+}
+
+.mostar{display:block;}
+.ocultar{display:none;}
+
+
+h3{ 
+    font-weight: 100;
+    text-align: start;
+    padding-left: 11%;
+    margin-bottom: .3em;
+}
+
+/*RECURSOS*/
+.white{
+    color: white;
+}
+/*No esta funcionando*/
+option .darkgrey{
+    color: darkgrey !important;
+}
+ 
+/*Inputs*/
+select {
+    background: rgba(255, 255, 255, 0.26);
+    padding: .5em 1em;
+    width: 78%;
+    text-align: center;
+    border: 3px solid transparent;        
+    color: rgba(169, 169, 169, 0.59);
+    font-size: 1em;
+    border-radius: .1em;
+
+}
+
+input[type="text"] {
+    background: rgba(255, 255, 255, 0.26);
+    padding: .5em 3em;
+    width: 50%;
+    text-align: center;
+    border: 3px solid transparent;
+    color: white;
+    font-size: 1em;
+    border-radius: .1em;
+}
+ 
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color: rgba(169, 169, 169, 0.59);
+  
+}
+::-moz-placeholder { /* Firefox 19+ */
+    color: rgba(169, 169, 169, 0.59);
+  
+}
+:-ms-input-placeholder { /* IE 10+ */
+    color: rgba(169, 169, 169, 0.59);
+  
+}
+:-moz-placeholder { /* Firefox 18- */
+    color: rgba(169, 169, 169, 0.59);
+  
+}
+
+
+.dn{
+    display: none
+ }
+.mt{
+     
+}
+h6{
+  margin: 4px;
+    margin-left: 2em;
+    text-align: left;
+    font-size: 1.1em;
+
+}
+
+
+
+
+.small-9{
+    width: 80%;
+    text-align: left;
+    display: inline-block;
+}
+.small-3{
+    width: 5%;
+    display: inline-block;
+    position: absolute;
+    margin-top: 11%;
+    right: 10%;
+}
