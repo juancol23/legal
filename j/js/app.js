@@ -20,7 +20,7 @@ app.factory("libros", function(){
 			pretensionDelito: "ABANDONO DE MENOR",
 			palabrasClaves: "INCUMPLIMIENTO DE LOS REQUISITOS DE PROCEDENCIA",
 			// img: "manuscritoAvicena.jpg"
-			url:"https://github.com/juanvaldemar/legal/raw/gh-pages/Jurisprudencia/Civil/ABANDONO%20DE%20MENOR/INCUMPLIMIENTO%20DE%20LOS%20REQUISITOS%20DE%20PROCEDENCIA/Resolucion%20000581-2011-1400734572183.pdf",
+			url:"https://github.com/juanvaldemar/legal/raw/gh-pages/Jurisprudencia/Civil/ABANDONO%20DE%20MENOR/INCUMPLIMIENTO%20DE%20LOS%20REQUISITOS%20DE%20PROCEDENCIA/Resolucion%20002759-2011-1400734572183.pdf",
 		 
 		},
 		{
